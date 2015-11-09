@@ -1,0 +1,68 @@
+.torso {
+  height: 100px;
+  width: 100px;
+  border-radius: 100%;
+  background-color: aqua;
+  padding: 20px;
+  margin: 0 auto;
+  animation: bounce 2s infinite;
+}
+
+p {
+  text-align: center;
+  font-family: Arial, sans-serif;
+  font-size: 20px;
+  margin: 0 auto;
+  margin-top: 35px;
+}
+
+@keyframes bounce {
+  0% {
+    transform: translateY(0px);
+  }
+  33% {
+    transform: translateY(50px);
+  }
+  66% {
+    transform: translateY(50px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
+
+.shadow {
+  height: 20px;
+  width: 100px;
+  border-radius: 100%;
+  background-color: black;
+  padding: 20px;
+  margin: 0 auto;
+  animation: shadow-stuff 2s infinite;
+}
+
+@keyframes shadow-stuff {
+  0% {
+    background-color: rgba(0, 0, 0, .3);
+    height: 10px;
+    width: 75px;
+  }
+  33% {
+    background-color: rgba(0, 0, 0, .6);
+    height: 20px;
+    width: 100px;
+  }
+  66% {
+    background-color: rgba(0, 0, 0, .6);
+    height: 20px;
+    width: 100px;
+  }
+  100% {
+    background-color: rgba(0, 0, 0, .3);
+    height: 10px;
+    width: 75px;
+  }
+}
+body {
+  background-color: #BFCFCC;
+}
