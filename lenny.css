@@ -20,10 +20,10 @@ p {
   0% {
     transform: translateY(0px);
   }
-  33% {
+  25% {
     transform: translateY(50px);
   }
-  66% {
+  75% {
     transform: translateY(50px);
   }
   100% {
@@ -47,12 +47,12 @@ p {
     height: 10px;
     width: 75px;
   }
-  33% {
+  25% {
     background-color: rgba(0, 0, 0, .6);
     height: 20px;
     width: 100px;
   }
-  66% {
+  25% {
     background-color: rgba(0, 0, 0, .6);
     height: 20px;
     width: 100px;
